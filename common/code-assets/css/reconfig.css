@@ -1,0 +1,19 @@
+perspective-viewer {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+perspective-viewer perspective-viewer-datagrid-toolbar {
+    display: none !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 891px) {
+    perspective-viewer {
+        top: 190px;
+        bottom: 51px;
+    }
+}
